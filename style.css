@@ -1,0 +1,66 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: white;
+  text-align: center;
+}
+
+.hero {
+  padding: 100px 20px;
+  transition: background 0.5s ease-in-out;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #00d4ff;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #00c0e0;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  font-size: 0.9rem;
+  background-color: #111;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  button {
+    width: 80%;
+  }
+}
